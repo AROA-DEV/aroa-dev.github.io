@@ -275,10 +275,82 @@
 
 <!-- Blog Content -->
     <div class="blog-content">
-        <!-- Post Title -->
-        <a href="#" class="post-title">Making a new User</a>
+
         <!-- Post Excerpt -->
-        <pre></pre>
+        <h6>Making a new user</h6>
+        <p>These example wil be to make a new normal user called anonymous </p>
+        <pre>
+            1|  (root💀kali)-[~]
+            └─# adduser [NAME]  
+            
+            2|  fill details on the menu ex: Name: ANONYMOUS
+ 
+            EXAMPLES|
+            
+            (root💀kali)-[~]
+            └─# adduser ANONYMOUS
+            Adding user `ANONYMOUS' ...
+            Adding new group `ANONYMOUS' (1001) ...
+            Adding new user `ANONYMOUS' (1001) with group `ANONYMOUS' ...
+            Creating home directory `/home/ANONYMOUS' ...
+            Copying files from `/etc/skel' ...
+            New password: 
+            Retype new password: 
+            passwd: password updated successfully
+            Changing the user information for ANONYMOUS
+            Enter the new value, or press ENTER for the default
+                Full Name []: ANONYMOUS
+                Room Number []: !! NOT NECESSARY TO FILL
+                Work Phone []: !! NOT NECESSARY TO FILL
+                Home Phone []: !! NOT NECESSARY TO FILL
+                Other []: !! NOT ANONYMOUS TO FILL
+                
+            Is the information correct? [Y/n] y
+        </pre>
+        <br>
+        <br>
+        <h6>Making a new user</h6>
+        <p>These example wil be to make a new normal user called anonymous </p>
+        <pre>
+            1|  (root💀kali)-[~]
+            └─# adduser [NAME]  
+            
+            2|  fill details on the menu ex: Name: ANONYMOUS
+ 
+            EXAMPLES|
+            
+            (root💀kali)-[~]
+            └─# adduser ANONYMOUS
+            Adding user `ANONYMOUS' ...
+            Adding new group `ANONYMOUS' (1001) ...
+            Adding new user `ANONYMOUS' (1001) with group `ANONYMOUS' ...
+            Creating home directory `/home/ANONYMOUS' ...
+            Copying files from `/etc/skel' ...
+            New password: 
+            Retype new password: 
+            passwd: password updated successfully
+            Changing the user information for ANONYMOUS
+            Enter the new value, or press ENTER for the default
+                Full Name []: ANONYMOUS
+                Room Number []: !! NOT NECESSARY TO FILL
+                Work Phone []: !! NOT NECESSARY TO FILL
+                Home Phone []: !! NOT NECESSARY TO FILL
+                Other []: !! NOT ANONYMOUS TO FILL
+                
+            Is the information correct? [Y/n] y
+                                                                                     
+            ┌──(root💀kali)-[~]
+            └─# sudo usermod -a -G sudo ANONYMOUS
+                                                                                     
+            ┌──(root💀kali)-[~]
+            └─# sudo adduser ANONYMOUS sudo      
+            The user `ANONYMOUS' is already a member of `sudo'.
+                                                                                     
+            ┌──(root💀kali)-[~]
+            └─# su ANONYMOUS               
+            ┌──(ANONYMOUS)-[/root]
+            └─$ sudo -i       
+        </pre>
     </div>
 </div>
 
