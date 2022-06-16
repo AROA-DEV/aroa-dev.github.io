@@ -2,6 +2,7 @@
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i");
 /* :: 2.0 Import All CSS */
+/* :: 2.0 Import All CSS */
 @import url(css/bootstrap.min.css);
 @import url(css/classy-nav.css);
 @import url(css/owl.carousel.min.css);
@@ -11,6 +12,8 @@
 @import url(css/audioplayer.css);
 @import url(css/one-music-icon.css);
 @import url(css/button.css);
+/* ------ Extra import ------*/
+@import url(css-extra/hover-bright.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -1188,15 +1191,7 @@ img {
   @media only screen and (max-width: 767px) {
     .footer-area {
       text-align: center; } }
-  .footer-area .copywrite-text {
-    font-size: 12px;
-    margin-bottom: 0;
-    color: rgba(166, 165, 165, .100%); }
-    .footer-area .copywrite-text a {
-      color: rgba(166, 165, 165, .100%);
-      font-size: 12px; }
-      .footer-area .copywrite-text a:hover, .footer-area .copywrite-text a:focus {
-        color: rgba(166, 165, 165, .100%)}
+
   .footer-area .footer-nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
