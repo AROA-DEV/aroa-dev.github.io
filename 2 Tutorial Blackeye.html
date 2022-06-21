@@ -261,6 +261,9 @@
 <pre class="terminal">
     <br>
     (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
+    └─# cd Desktop
+    
+    (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
     └─#  git clone https://github.com/AROA-DEV/Blackeye.git
     <br>
 </pre>
@@ -285,7 +288,63 @@
                         <!-- Post Title -->
                         <a href="#" class="post-title"></a>
                         <!-- Post Excerpt -->
-                        <p></p>
+                        <p>Start Ngrok</p>
+<pre class="terminal">
+    <br>
+    (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
+    └─# cd Desktp
+    
+    (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
+    └─# wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz
+    
+    (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
+    └─# unzip /path/to/ngrok.zip
+    
+    (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
+    └─# ngrok config add-authtoken [ your personal authotoken ]
+    
+    (<b style="color: rgb(66, 66, 255);">kali⭐kali</b>)-[~]
+    └─# ngrok http 8080
+    <br>
+</pre>
+                        
+<br>
+                        <a href="#" class="post-title"></a>
+                        <!-- Post Excerpt -->
+                        <p>Push the Blackeye page</p>
+<pre class="terminal">
+    <br>
+┌──(anonimus㉿kali)-[~]
+└─$ cd Desktop                                                               
+                                                                                                                   
+┌──(anonimus㉿kali)-[~/Desktop]
+└─$ git clone https://github.com/AROA-DEV/Blackeye.git             
+
+┌──(anonimus㉿kali)-[~/Desktop]
+└─$ cd Blackeye 
+                                                                                                                   
+┌──(anonimus㉿kali)-[~/Desktop/Blackeye]
+└─$ ls
+blackeye.sh  LICENSE  ngrok-v3-stable-linux-amd64.tgz  sites
+                                                                                                                   
+┌──(anonimus㉿kali)-[~/Desktop/Blackeye]
+└─$ cd sites   
+                                                                                                                   
+┌──(anonimus㉿kali)-[~/Desktop/Blackeye/sites]
+└─$ ls      
+adobe  devianart  google     messenger  myspace  origin     protonmail  steam   verizon  wordpress  yandex
+badoo  facebook   instagram  microsoft  netflix  pinterest  snapchat    twitch  vk       yahoo
+
+    [ Chouse a site and cd into it ( Ex. with instagram)]
+
+┌──(anonimus㉿kali)-[~/Desktop/Blackeye/sites]
+└─$ cd instagram 
+
+┌──(anonimus㉿kali)-[~/Desktop/Blackeye/sites/instagram]
+└─$ php -S localhost:8080
+
+    <br>
+</pre>
                     </div>
                 </div>
 
