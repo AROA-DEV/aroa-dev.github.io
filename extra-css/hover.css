@@ -9,10 +9,8 @@
 }
 
 .box_sq {
-    background-color: grey;
-
-    max-width: 33.3%;
-    width: 33.3%;
+    background-color: black;
+    color: white;
 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -21,10 +19,9 @@
 }
 
 .box_sq:hover {
-    background-color: whitesmoke;
+    background-color: white;
+    color: black;
 
-    max-width: 33.3%;
-    width: 33.3%;
 }
 
 p.box_sq_text {

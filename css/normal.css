@@ -7,7 +7,7 @@
     font-family: "Archivo Narrow", sans-serif;
     font-size: 14px;
   
-    background-color: whitesmoke;
+    background-color: white;
   }
   
   h1,
@@ -23,10 +23,10 @@
   
   p {
     font-family: "Archivo Narrow", sans-serif;
-    color: #5f5f5f;
+    /*color: #5f5f5f;*/
     font-size: 15px;
     line-height: 1;
-    font-weight: 400;
+    font-weight: 500;
     }
   
   a,
@@ -647,8 +647,8 @@
   
   /* :: 7.0 Events Area CSS */
   .event-text {
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   
   .single-event-area {
@@ -706,7 +706,7 @@
     .single-event-area:hover, .single-event-area:focus {
       box-shadow: 0 5px 80px 0 rgba(0, 0, 0, 0.2); }
       .single-event-area:hover .event-text, .single-event-area:focus .event-text {
-        background-color: #f5f9fa; }
+        background-color: whitesmoke; }
         .single-event-area:hover .event-text h4,
         .single-event-area:hover .event-text .event-meta-data a, .single-event-area:focus .event-text h4,
         .single-event-area:focus .event-text .event-meta-data a {
